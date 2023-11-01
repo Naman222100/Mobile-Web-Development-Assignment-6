@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+        <title>Web Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Naman Sharma </h1>
+    </header>
+    <form>
+        <label for="full-name">Full Name:</label>
+        <input type="text" name="full-name" id="full-name" required/>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" required/>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: 000-000-0000" required/>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" placeholder="type your message here"></textarea>
+        <label for="checkbox">Checkbox (Yes / No):</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+        <p>Copyright 2023 </p>
+    </footer>
+</body>
+</html>
